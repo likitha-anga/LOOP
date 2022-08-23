@@ -1,0 +1,11 @@
+from tkinter import*
+mw.tk()
+def clear():
+
+
+
+mw.tittle("calulator")
+def btn_clk(num):
+  cur_num=db.get()
+  f_num=cur_num+num
+  db.insert(0,f_num)
